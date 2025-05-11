@@ -13,7 +13,7 @@ export default function LoginScreen() {
       <BackComponent />
       <LogoComponent />
       <View style={stylesGlobal.form}>
-        <Text style={stl.titleForm}>Iniciar sesión</Text>
+        <Text style={stylesGlobal.h2}>Iniciar sesión</Text>
 
         {/* Input de correo */}
         <View style={stl.inputGroup}>
@@ -44,10 +44,6 @@ export default function LoginScreen() {
 }
 
 const stl = StyleSheet.create({
-  titleForm: {
-    fontSize: 24,
-    fontFamily: 'InterBold',
-  },
   inputGroup: {
     flexDirection: 'row',
     alignItems: 'center',

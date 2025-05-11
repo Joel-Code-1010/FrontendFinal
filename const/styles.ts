@@ -17,6 +17,11 @@ export const stylesGlobal = StyleSheet.create({
         paddingVertical: 35,
         borderWidth: 1,
         borderRadius: 10,
-  },
+    },
+    h2 :{
+        fontSize: 24,
+        fontFamily: 'InterBold',
+        color : colors.textoPrincipal,
+    },
     
 })

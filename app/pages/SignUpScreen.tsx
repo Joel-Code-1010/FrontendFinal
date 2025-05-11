@@ -12,7 +12,7 @@ export default function SignUpScreen() {
             <LogoComponent />
 
             <View style={stylesGlobal.form}>
-                <Text style={stl.h2}>Registrate</Text>
+                <Text style={stylesGlobal.h2}>Registrate</Text>
                 <TextInput placeholder='Nombre' style={stl.input} />
                 <TextInput placeholder='Apellido' style={stl.input} />
                 <TextInput placeholder='Correo electrónico' style={stl.input} />
@@ -28,10 +28,7 @@ export default function SignUpScreen() {
 
 
 const stl = StyleSheet.create({
-    h2 :{
-        fontSize: 24,
-        fontFamily: 'InterBold',
-    },
+    
     input: {
         paddingVertical: 12,
         paddingHorizontal: 10,
